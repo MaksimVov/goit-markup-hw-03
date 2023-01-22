@@ -32,6 +32,8 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+
+  border: 2px solid red;
 }
 .header-container {
   display: flex;
@@ -104,6 +106,7 @@ body {
   color: #404bbf;
 }
 .hero-sectoin {
+  margin: 0;
   width: 100%;
   padding: 188px 0;
   display: flex;
@@ -149,10 +152,9 @@ body {
   list-style: none;
   display: flex;
   margin-top: 0;
-  margin-bottom: 120px;
 }
 .information-item {
-  width: 264px;
+  width: 584px;
   margin-right: 24px;
 }
 .information-title {
@@ -187,8 +189,7 @@ body {
   padding: 0;
   gap: 24px;
 }
-.images-item:not(:last-child) {
-}
+
 .images-item {
   flex-basis: calc(100% / 3 - 24px);
 }
