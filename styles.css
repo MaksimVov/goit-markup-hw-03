@@ -33,7 +33,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  border: 2px solid red;
+  outline: 2px solid red;
 }
 .header-container {
   display: flex;
@@ -152,9 +152,9 @@ body {
   list-style: none;
   display: flex;
   margin-top: 0;
+  margin-bottom: 120px;
 }
 .information-item {
-  width: 584px;
   margin-right: 24px;
 }
 .information-title {
@@ -166,6 +166,7 @@ body {
   letter-spacing: 0.02em;
 }
 .item-text {
+  width: 264px;
   margin: 0;
   color: var(--secondery--txt-cl);
   line-height: 1.5;
