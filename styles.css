@@ -205,13 +205,12 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 24px;
 }
 .team-item {
   flex-basis: calc(100% / 4 - 24px);
 }
 .team-member {
-  width: 264px;
   padding: 32px 0;
   background-color: var(--main-bg-cl);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -235,7 +234,6 @@ a {
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 15px;
   background-color: #2e2f42;
 }
 
@@ -277,12 +275,15 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.innovations {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .filters-list {
-  margin-top: 96px;
-  margin-bottom: 72px;
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px; 
 }
 
 .filter-btn {
@@ -310,7 +311,6 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 120px;
 }
 .innovations-item {
   margin-right: 24px;
@@ -324,11 +324,9 @@ a {
   margin-bottom: 0;
 }
 .card-cocntent {
-  width: 360px;
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-  background-color: var(--main-bg-cl);
   border: 1px solid #e7e9fc;
   border-top: none;
 }
